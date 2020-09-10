@@ -8,9 +8,11 @@ import jsonutil from 'koa-json'
 import cors from '@koa/cors'
 import compose from 'koa-compose'
 import compress from 'koa-compress'
+import { InitManager } from './utils/init'
+// 全局挂载日志
+InitManager.init_gobal()
 
 const app = new koa()
-
 const isDevMode = process.env.NODE_ENV === 'production' ? false : true
 
 /**

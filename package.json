@@ -24,8 +24,11 @@
     "koa-json": "^2.0.2",
     "koa-router": "^7.4.0",
     "koa-static": "^5.0.0",
+    "log4js": "^6.3.0",
     "moment": "^2.24.0",
+    "mongoose": "^5.10.3",
     "nodemailer": "^6.3.0",
+    "redis": "^3.0.2",
     "svg-captcha": "^1.4.0"
   },
   "devDependencies": {
